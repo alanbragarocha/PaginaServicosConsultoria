@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Essential SEO Meta Tags -->
+    <meta name="description" content="Serviços profissionais especializados em [área de atuação]. Conheça nossas soluções personalizadas para atender suas necessidades específicas com excelência e compromisso.">
+    <meta name="author" content="Nome do Profissional">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <title>Nome Profissional - Serviços Especializados em [Área de Atuação]</title>
+</head>
+<body>
+    <header>
+        <nav class="container-menu" aria-label="Menu principal">
+            <div class="logo">
+                <img src="./assets/imagem/Logo.svg" alt="Logo Nome Profissional - Serviços Especializados">
+            </div>
+            <button id="menu-button" aria-label="Menu de navegação">
+                <span class="menu-icon"></span>
+            </button>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="#sobre" onclick="scrollToSection('sobre')">Sobre</a></li>
+                    <li><a href="#servicos" onclick="scrollToSection('servicos')">Serviços</a></li>
+                    <li><a href="#especialidades" onclick="scrollToSection('especialidades')">Especialidades</a></li>
+                    <li><a href="#depoimentos" onclick="scrollToSection('depoimentos')">Depoimentos</a></li>
+                    <li><a href="#contato" onclick="scrollToSection('contato')" class="menu-contact-btn">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Sobre -->
+        <section class="sobre" id="sobre">
+            <div class="box-container">
+                <div class="image">
+                    <img src="./assets/imagem/self.jpg" alt="Nome do Profissional - Especialista em [Área de Atuação]" loading="lazy">
+                </div>
+                <div class="content">
+                    <h1>Nome do Profissional</h1>
+                    <p>Descrição profissional com formação, especializações e abordagem de trabalho. Este espaço permite apresentar suas credenciais e experiência de forma clara e concisa para criar uma conexão com potenciais clientes.</p>
+                    
+                    <p>Texto complementar destacando diferenciais, filosofia de trabalho e valores profissionais que norteiam sua atuação no mercado e o compromisso com resultados de excelência.</p>
+                    
+                    <a href="./sobre.html" class="btn">Conheça minha trajetória</a>
+                    
+                    <div class="sobre-info">
+                        <div class="info">
+                            <h4><i class="fas fa-graduation-cap" aria-hidden="true"></i> Formação: <span>Área de Formação</span></h4>
+                            <h4><i class="fas fa-calendar-alt" aria-hidden="true"></i> Idade: <span class="tempo-habilidades" data-start-date="1989-03-15"></span></h4>
+                            <h4><i class="fas fa-award" aria-hidden="true"></i> Especialização: <span>Especialidade Principal</span></h4>
+                            <h4><i class="fas fa-briefcase" aria-hidden="true"></i> Experiência: <span class="tempo-habilidades" data-start-date="2010-03-15"></span></h4>
+                            <h4><i class="fas fa-globe" aria-hidden="true"></i> Idiomas: <span>Português, Inglês, etc.</span></h4>
+                        </div>
+
+                        <div class="counting">
+                            <div class="box">
+                                <p>Experiência</p>
+                                <h3><span class="tempo-habilidades" data-start-date="2010-03-15"></span></h3>
+                            </div>
+                            
+                            <div class="box">
+                                <p>Formado</p>
+                                <h3><span class="tempo-habilidades" data-start-date="2010-03-15"></span></h3>
+                            </div>
+                            
+                            <div class="box">
+                                <p>Projetos</p>
+                                <h3>22</h3>
+                            </div>
+                            
+                            <div class="box">
+                                <p>Certificações</p>
+                                <h3>4</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Serviços -->
+        <section class="servicos-section" id="servicos">
+            <div class="container">
+                <h2 class="section-title">Como posso ajudar você?</h2>
+                <p class="section-subtitle">Conheça as soluções personalizadas que ofereço para atender às suas necessidades específicas com excelência e profissionalismo.</p>
+                
+                <div class="servicos-container">
+                    <article class="servico-item">
+                        <div class="servico-icon">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h3>Serviço Principal</h3>
+                        <p>
+                            Descrição detalhada do serviço principal oferecido, destacando benefícios, metodologia e resultados esperados. Esta área permite explicar como o serviço funciona e como pode ajudar seu cliente.
+                        </p>
+                    </article>
+                    
+                    <article class="servico-item">
+                        <div class="servico-icon">
+                            <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        </div>
+                        <h3>Serviço Secundário</h3>
+                        <p>
+                            Descrição do segundo serviço oferecido, complementar ao principal. Este espaço permite detalhar outras formas de atendimento ou serviços complementares que podem ser úteis aos clientes.
+                        </p>
+                    </article>
+                    
+                    <article class="servico-item">
+                        <div class="servico-icon">
+                            <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                        </div>
+                        <h3>Serviço Adicional</h3>
+                        <p>
+                            Descrição de um serviço adicional ou especializado para necessidades específicas. Esta área permite destacar um diferencial ou um serviço exclusivo que você oferece no mercado.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Especialidades -->
+        <section class="especialidades" id="especialidades">
+            <div class="container">
+                <h2 class="section-title">Especialidades e Áreas de Atuação</h2>
+                
+                <div class="especialidades-container">
+                    <div class="coluna-especialidade">
+                        <h3>Área de Especialidade 1</h3>
+                        <ul>
+                            <li>Tópico específico 1</li>
+                            <li>Tópico específico 2</li>
+                            <li>Tópico específico 3</li>
+                            <li>Tópico específico 4</li>
+                            <li>Tópico específico 5</li>
+                            <li>Tópico específico 6</li>
+                        </ul>
+                    </div>
+                    <div class="coluna-especialidade">
+                        <h3>Área de Especialidade 2</h3>
+                        <ul>
+                            <li>Tópico específico 1</li>
+                            <li>Tópico específico 2</li>
+                            <li>Tópico específico 3</li>
+                            <li>Tópico específico 4</li>
+                            <li>Tópico específico 5</li>
+                            <li>Tópico específico 6</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Diferenciais -->
+        <section class="diferenciais" id="diferenciais">
+            <div class="container">
+                <h2 class="section-title">Por que escolher meus serviços?</h2>
+                
+                <div class="container-diferenciais">
+                    <article class="coluna-diferencial">
+                        <h3>Experiência Comprovada</h3>
+                        <p>Descrição da experiência e histórico profissional que credencia o profissional como referência na área, destacando principais conquistas e casos de sucesso.</p>
+                    </article>
+                    <article class="coluna-diferencial">
+                        <h3>Metodologia Personalizada</h3>
+                        <p>Explicação sobre a abordagem personalizada utilizada em cada caso, demonstrando como os serviços são adaptados às necessidades específicas de cada cliente.</p>
+                    </article>
+                    <article class="coluna-diferencial">
+                        <h3>Resultados Comprovados</h3>
+                        <p>Apresentação de resultados concretos obtidos com clientes anteriores, possivelmente com dados mensuráveis e indicadores de sucesso na área de atuação.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Depoimentos -->
+        <section class="depoimentos" id="depoimentos">
+            <div class="container">
+                <h2 class="section-title">O que dizem meus clientes</h2>
+                
+                <div class="container-depoimentos">
+                    <article class="depoimento">
+                        <blockquote class="texto">"Depoimento do cliente destacando a qualidade do serviço prestado e os resultados obtidos após a contratação dos serviços."</blockquote>
+                        <p class="nome">- Nome do Cliente, Empresa/Profissão</p>
+                    </article>
+                    
+                    <article class="depoimento">
+                        <blockquote class="texto">"Outro depoimento ressaltando diferentes aspectos positivos da experiência com o profissional e como isso impactou positivamente sua vida ou negócio."</blockquote>
+                        <p class="nome">- Nome do Cliente, Empresa/Profissão</p>
+                    </article>
+                    
+                    <article class="depoimento">
+                        <blockquote class="texto">"Mais um depoimento abordando algum diferencial específico do profissional ou resultado extraordinário obtido graças aos serviços prestados."</blockquote>
+                        <p class="nome">- Nome do Cliente, Empresa/Profissão</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- Coluna de Contato -->
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><a href="tel:+5500000000000"><i class="fas fa-phone" aria-hidden="true"></i> Telefone: (00) 00000-0000</a></li>
+                        <li><a href="mailto:contato@exemplo.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email: contato@exemplo.com</a></li>
+                        <li><a href="https://goo.gl/maps/seuendereço"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Endereço: Rua Exemplo, nº 123</a></li>
+                        <li><button class="btn-contato"><a href="#contato">Entre em contato</a></button></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna de Horários -->
+                <div class="footer-col">
+                    <h3>Horários</h3>
+                    <ul>
+                        <li><i class="fas fa-clock" aria-hidden="true"></i> Segunda a Sexta: 8h às 18h</li>
+                        <li><i class="fas fa-clock" aria-hidden="true"></i> Sábados: 9h às 12h</li>
+                        <li><i class="fas fa-clock" aria-hidden="true"></i> Domingos: Fechado</li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna de Links Úteis -->
+                <div class="footer-col">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="termos-servico.html">Termos de Serviço</a></li>
+                        <li><a href="./faq.html">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna de Redes Sociais -->
+                <div class="footer-col">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023-2025 Nome Profissional. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <div class="float-whatsapp">
+        <a target="_blank" href="https://wa.me/5500000000000" aria-label="Fale pelo WhatsApp">
+            <i class="fab fa-whatsapp icon-whatsapp"></i>
+        </a>
+    </div>
+    
+    <div class="float-whatsapp-expanded">
+        <i class="fab fa-whatsapp"></i>
+        <p>Fale comigo no WhatsApp</p>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/ld.json"></script>
+    <script src="./assets/Js/tempoDecorridoHabilidades.js"></script>
+</body>
+</html>
